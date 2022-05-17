@@ -1,0 +1,26 @@
+.btn-toggle{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    border: solid 1px red;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.goLight {
+    background-image: linear-gradient(midnightblue, rebeccapurple);
+    color: #f1f1f1;
+}
+.goDark{
+    background-image: linear-gradient(aqua, skyblue);
+    color: #333;
+}
+
+
+
